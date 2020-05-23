@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2d42;
+  font-family: "Roboto", apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #8d99ae;
+  font-weight: 700;
+  text-decoration: underline;  
+}
+
+.container {
+  margin: 0 304px;
+  padding: 54px 0;
+  color: #8d99ae;
+}
+
+.container h1 {
+  margin-bottom: 8px;
+  font-size: 46px;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+
+.submit-success {
+  margin: 18px 0;
+  padding: 4px 6px;
+  width: 260px;
+  background: rgb(38, 185, 38);
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.submit-error {
+  margin: 18px 0;
+  padding: 4px 6px;
+  width: 260px;
+  background: rgb(185, 38, 38);
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+form input {
+  margin: 4px 0;
+  padding: 0 8px;
+  max-width: 260px;
+  height: 42px;
+  background: transparent;
+  border: 3px solid #3c4068;
+  border-radius: 4px;
+  color: #3c4068;
+  font-family: "Roboto", apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  transition: all ease 0.4s;
+}
+
+form input::placeholder {
+  color: #3c4068;
+  font-style: italic;
+  font-weight: 700;
+  transition: all ease 0.4s;
+}
+
+form input:focus::placeholder {
+  color: #8d99ae;
+}
+
+form input:focus {
+  border-color: #8d99ae;
+  color: #8d99ae;
+
+  outline: none;
+}
+
+form button {
+  margin-top: 16px;
+  min-width: 130px;
+  max-width: 260px;
+  height: 48px;
+  background: transparent;
+  border: 3px solid #3c4068;
+  border-radius: 4px;
+  color: #3c4068;
+  font-family: "Roboto", apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all ease 0.4s;
+}
+
+form button:hover,
+form button:focus {
+  border-color: #8d99ae;
+  color: #8d99ae;
+  cursor: pointer;
+
+  outline: none;
+}

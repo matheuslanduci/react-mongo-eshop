@@ -1,0 +1,53 @@
+.Product-Item {
+  padding: 24px 8px;
+  width: 180px;
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #3C4068;
+  border-radius: 4px;
+  color: #8D99AE;
+}
+
+.Product-Item span {
+  font-size: 16px;
+  line-height: 19px;  
+}
+
+.Product-Item label {
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.Product-Icons {
+  position: relative;
+  top: -165px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Product-Icon {
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: 0;  
+  cursor: pointer;
+}
+
+.Product-Icon svg {
+  stroke: #8D99AE;
+}
+
+.Product-Icon#update:hover svg {
+  stroke: #ffffff;
+}
+
+.Product-Icon#delete:hover svg {
+  stroke: rgb(255, 56, 56);
+}

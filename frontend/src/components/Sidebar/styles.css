@@ -1,0 +1,63 @@
+.App-sidebar {
+  padding: 51px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 224px;
+  height: 100vh;
+
+  background: #3c4068;
+  color: #8d99ae;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.App-sidebar h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.App-sidebar h2 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.App-menu {
+  margin-top: 64px;
+}
+
+.App-menu span {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #8d99ae;
+}
+
+.App-menu .Column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-menu a:first-child {
+  margin-top: 4px;
+}
+
+.App-menu a {
+  margin: 2px 0;
+  color: #8d99ae;
+  text-decoration: none;
+  transition: ease transform 0.4s;
+}
+
+.App-menu a.active,
+.App-menu a:hover {  
+  font-weight: 700;
+  transform: translateX(16px);
+}
+
+.App-menu a.active::before {
+  content: "> ";
+}
